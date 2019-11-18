@@ -1,1 +1,0 @@
-# beautilife.github.io
