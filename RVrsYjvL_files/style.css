@@ -1,0 +1,21 @@
+* { margin: 0; padding: 0; outline: none; border: 0; }
+body { font-family: "Arial"; }
+#wrapper { padding: 20px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; min-width: 400px; }
+#order_form { width: 400px; margin: 0 auto 0;}
+#order_form p { font-size: 13px; margin: 10px 0px 10px 0px; color: #1D1D1D; }
+#order_form input { display:block; width:380px; padding:8px 10px; border:#888 1px solid; font-size:16px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; background: #fff;}
+#order_form input[type="submit"] {
+	border:none;
+	background: url('btn-order.png') no-repeat;
+	width: 353px;
+	height: 64px;
+	text-indent:-9999px;
+	overflow:hidden;
+	cursor:pointer;
+	margin: 20px auto 15px;
+	padding:0px; 
+	}
+#order_form input[type="submit"]:hover {
+	background: url('btn-order-hover.png') no-repeat;
+	}
+h2 {text-align: center;}
